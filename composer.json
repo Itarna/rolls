@@ -29,13 +29,12 @@
 		"openapi": "generate-spec"
 	},
 	"require": {
-		"php": "^8.1",
-		"bamarni/composer-bin-plugin": "^1.8",
-		"symfony/uid": "^6.4"
-	},
-	"require-dev": {
-		"nextcloud/ocp": "dev-stable29",
-		"roave/security-advisories": "dev-latest"
+               "php": "^8.1",
+               "bamarni/composer-bin-plugin": "^1.8"
+       },
+       "require-dev": {
+               "nextcloud/ocp": "dev-stable31",
+               "roave/security-advisories": "dev-latest"
 	},
 	"config": {
 		"allow-plugins": {

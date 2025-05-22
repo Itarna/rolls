@@ -8,3 +8,8 @@
 
 A plugin to take screen recordings and share them with your collegues.
 Skip the meetings!
+
+## Compatibility
+
+This version is tested with Nextcloud 31 and should work with newer releases as well.
+
