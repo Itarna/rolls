@@ -11,7 +11,7 @@ use OCA\Rolls\Utils\Funcs;
 use OCP\Files\IRootFolder;
 use OCP\IUserSession;
 use OCP\Share\IManager;
-use Symfony\Component\Uid\Uuid;
+use OCA\Rolls\Utils\Uuid;
 
 /**
  * @psalm-suppress UnusedClass
@@ -46,7 +46,7 @@ class RollService
 			$this->storage->newFolder($videoFolderName);
 		}
 
-		$uuid = Uuid::v4()->__toString();
+               $uuid = Uuid::v4();
 		$videoFolder = $this->storage->get($videoFolderName);
 
 		$foldernameBase = Funcs::joinPaths($videoFolder->getPath(),  'Roll_' . $uuid);
