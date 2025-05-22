@@ -2,7 +2,10 @@
 
 declare(strict_types=1);
 
-require_once './vendor-bin/cs-fixer/vendor/autoload.php';
+$autoload = __DIR__ . '/vendor-bin/cs-fixer/vendor/autoload.php';
+if (file_exists($autoload)) {
+    require_once $autoload;
+}
 
 use Nextcloud\CodingStandard\Config;
 
