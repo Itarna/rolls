@@ -27,7 +27,6 @@ use OCP\IUser;
 use OCP\IUserManager;
 use OCP\IUserSession;
 use OCP\Util;
-use Symfony\Component\Uid\Uuid;
 use OCA\Rolls\Service\RollService;
 
 /**
