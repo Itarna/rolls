@@ -11,7 +11,6 @@ use OCP\IUser;
 use OCP\IUserSession;
 use OCP\Share\IManager;
 use PDO;
-use Symfony\Component\Uid\Uuid;
 
 class RollsDb extends QBMapper {
 
